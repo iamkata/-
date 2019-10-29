@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A0768602064D1B700FB24D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A07685F2064D1B700FB24D7 /* AppDelegate.m */; };
+		5A0768632064D1B700FB24D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0768622064D1B700FB24D7 /* ViewController.m */; };
+		5A0768662064D1B700FB24D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A0768642064D1B700FB24D7 /* Main.storyboard */; };
+		5A0768682064D1B700FB24D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A0768672064D1B700FB24D7 /* Assets.xcassets */; };
+		5A07686B2064D1B700FB24D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A0768692064D1B700FB24D7 /* LaunchScreen.storyboard */; };
+		5A07686E2064D1B700FB24D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A07686D2064D1B700FB24D7 /* main.m */; };
+		5A0768762064D2A900FB24D7 /* EOCDataObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0768752064D2A900FB24D7 /* EOCDataObject.m */; };
+		5A07687F2064D5C100FB24D7 /* UIView+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0768792064D5C100FB24D7 /* UIView+Color.m */; };
+		5A0768802064D5C100FB24D7 /* UIView+EOCFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A07687A2064D5C100FB24D7 /* UIView+EOCFrame.m */; };
+		5A0768812064D5C100FB24D7 /* UIView+hitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A07687B2064D5C100FB24D7 /* UIView+hitTest.m */; };
+		5A0768852064D82E00FB24D7 /* EOCFindingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0768842064D82E00FB24D7 /* EOCFindingViewController.m */; };
+		5A0768892064D8FE00FB24D7 /* EOCLightGrayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0768882064D8FE00FB24D7 /* EOCLightGrayView.m */; };
+		5A07688C2064D90F00FB24D7 /* EOCBlueView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A07688B2064D90F00FB24D7 /* EOCBlueView.m */; };
+		5A07688F2064D91D00FB24D7 /* EOCRedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A07688E2064D91D00FB24D7 /* EOCRedView.m */; };
+		5A0768922064D92A00FB24D7 /* EOCYellowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0768912064D92A00FB24D7 /* EOCYellowView.m */; };
+		5A0768972064FEC400FB24D7 /* EOCCaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0768962064FEC400FB24D7 /* EOCCaseViewController.m */; };
+		5A07689A2064FF8400FB24D7 /* EOCCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0768992064FF8400FB24D7 /* EOCCustomButton.m */; };
+		5A07689E2065111100FB24D7 /* EOCGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A07689D2065111100FB24D7 /* EOCGestureViewController.m */; };
+		5A0768A22065116900FB24D7 /* EOCCustomGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0768A12065116900FB24D7 /* EOCCustomGesture.m */; };
+		5A0768A62065155900FB24D7 /* EOCButtonEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0768A52065155900FB24D7 /* EOCButtonEventViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5A07685B2064D1B700FB24D7 /* 事件层次分析 VIP第三期.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "事件层次分析 VIP第三期.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A07685E2064D1B700FB24D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5A07685F2064D1B700FB24D7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5A0768612064D1B700FB24D7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5A0768622064D1B700FB24D7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5A0768652064D1B700FB24D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A0768672064D1B700FB24D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A07686A2064D1B700FB24D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A07686C2064D1B700FB24D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A07686D2064D1B700FB24D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A0768742064D2A900FB24D7 /* EOCDataObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EOCDataObject.h; sourceTree = "<group>"; };
+		5A0768752064D2A900FB24D7 /* EOCDataObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EOCDataObject.m; sourceTree = "<group>"; };
+		5A0768772064D30900FB24D7 /* EOCEvent.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EOCEvent.pch; sourceTree = "<group>"; };
+		5A0768792064D5C100FB24D7 /* UIView+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Color.m"; sourceTree = "<group>"; };
+		5A07687A2064D5C100FB24D7 /* UIView+EOCFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EOCFrame.m"; sourceTree = "<group>"; };
+		5A07687B2064D5C100FB24D7 /* UIView+hitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+hitTest.m"; sourceTree = "<group>"; };
+		5A07687C2064D5C100FB24D7 /* UIView+hitTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+hitTest.h"; sourceTree = "<group>"; };
+		5A07687D2064D5C100FB24D7 /* UIView+EOCFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EOCFrame.h"; sourceTree = "<group>"; };
+		5A07687E2064D5C100FB24D7 /* UIView+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Color.h"; sourceTree = "<group>"; };
+		5A0768832064D82E00FB24D7 /* EOCFindingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EOCFindingViewController.h; sourceTree = "<group>"; };
+		5A0768842064D82E00FB24D7 /* EOCFindingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EOCFindingViewController.m; sourceTree = "<group>"; };
+		5A0768872064D8FE00FB24D7 /* EOCLightGrayView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EOCLightGrayView.h; sourceTree = "<group>"; };
+		5A0768882064D8FE00FB24D7 /* EOCLightGrayView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EOCLightGrayView.m; sourceTree = "<group>"; };
+		5A07688A2064D90F00FB24D7 /* EOCBlueView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EOCBlueView.h; sourceTree = "<group>"; };
+		5A07688B2064D90F00FB24D7 /* EOCBlueView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EOCBlueView.m; sourceTree = "<group>"; };
+		5A07688D2064D91D00FB24D7 /* EOCRedView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EOCRedView.h; sourceTree = "<group>"; };
+		5A07688E2064D91D00FB24D7 /* EOCRedView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EOCRedView.m; sourceTree = "<group>"; };
+		5A0768902064D92A00FB24D7 /* EOCYellowView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EOCYellowView.h; sourceTree = "<group>"; };
+		5A0768912064D92A00FB24D7 /* EOCYellowView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EOCYellowView.m; sourceTree = "<group>"; };
+		5A0768932064E9F600FB24D7 /* 本节课内容大纲.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "本节课内容大纲.h"; sourceTree = "<group>"; };
+		5A0768952064FEC400FB24D7 /* EOCCaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EOCCaseViewController.h; sourceTree = "<group>"; };
+		5A0768962064FEC400FB24D7 /* EOCCaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EOCCaseViewController.m; sourceTree = "<group>"; };
+		5A0768982064FF8400FB24D7 /* EOCCustomButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EOCCustomButton.h; sourceTree = "<group>"; };
+		5A0768992064FF8400FB24D7 /* EOCCustomButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EOCCustomButton.m; sourceTree = "<group>"; };
+		5A07689C2065111100FB24D7 /* EOCGestureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EOCGestureViewController.h; sourceTree = "<group>"; };
+		5A07689D2065111100FB24D7 /* EOCGestureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EOCGestureViewController.m; sourceTree = "<group>"; };
+		5A0768A02065116900FB24D7 /* EOCCustomGesture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EOCCustomGesture.h; sourceTree = "<group>"; };
+		5A0768A12065116900FB24D7 /* EOCCustomGesture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EOCCustomGesture.m; sourceTree = "<group>"; };
+		5A0768A42065155900FB24D7 /* EOCButtonEventViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EOCButtonEventViewController.h; sourceTree = "<group>"; };
+		5A0768A52065155900FB24D7 /* EOCButtonEventViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EOCButtonEventViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A0768582064D1B700FB24D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A0768522064D1B700FB24D7 = {
+			isa = PBXGroup;
+			children = (
+				5A07685D2064D1B700FB24D7 /* 事件层次分析 VIP第三期 */,
+				5A07685C2064D1B700FB24D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A07685C2064D1B700FB24D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A07685B2064D1B700FB24D7 /* 事件层次分析 VIP第三期.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A07685D2064D1B700FB24D7 /* 事件层次分析 VIP第三期 */ = {
+			isa = PBXGroup;
+			children = (
+				5A07685E2064D1B700FB24D7 /* AppDelegate.h */,
+				5A07685F2064D1B700FB24D7 /* AppDelegate.m */,
+				5A0768612064D1B700FB24D7 /* ViewController.h */,
+				5A0768622064D1B700FB24D7 /* ViewController.m */,
+				5A0768932064E9F600FB24D7 /* 本节课内容大纲.h */,
+				5A0768822064D7DC00FB24D7 /* 寻找View */,
+				5A07689B206510ED00FB24D7 /* 手势事件 */,
+				5A0768A32065153500FB24D7 /* Button事件 */,
+				5A0768742064D2A900FB24D7 /* EOCDataObject.h */,
+				5A0768752064D2A900FB24D7 /* EOCDataObject.m */,
+				5A0768642064D1B700FB24D7 /* Main.storyboard */,
+				5A0768672064D1B700FB24D7 /* Assets.xcassets */,
+				5A0768692064D1B700FB24D7 /* LaunchScreen.storyboard */,
+				5A0768782064D5C100FB24D7 /* 分类方法 */,
+				5A07686C2064D1B700FB24D7 /* Info.plist */,
+				5A0768772064D30900FB24D7 /* EOCEvent.pch */,
+				5A07686D2064D1B700FB24D7 /* main.m */,
+			);
+			path = "事件层次分析 VIP第三期";
+			sourceTree = "<group>";
+		};
+		5A0768782064D5C100FB24D7 /* 分类方法 */ = {
+			isa = PBXGroup;
+			children = (
+				5A07687E2064D5C100FB24D7 /* UIView+Color.h */,
+				5A0768792064D5C100FB24D7 /* UIView+Color.m */,
+				5A07687D2064D5C100FB24D7 /* UIView+EOCFrame.h */,
+				5A07687A2064D5C100FB24D7 /* UIView+EOCFrame.m */,
+				5A07687C2064D5C100FB24D7 /* UIView+hitTest.h */,
+				5A07687B2064D5C100FB24D7 /* UIView+hitTest.m */,
+			);
+			path = "分类方法";
+			sourceTree = "<group>";
+		};
+		5A0768822064D7DC00FB24D7 /* 寻找View */ = {
+			isa = PBXGroup;
+			children = (
+				5A0768832064D82E00FB24D7 /* EOCFindingViewController.h */,
+				5A0768842064D82E00FB24D7 /* EOCFindingViewController.m */,
+				5A0768862064D8E400FB24D7 /* 自定义View */,
+				5A0768942064FEA300FB24D7 /* 运用 */,
+			);
+			path = "寻找View";
+			sourceTree = "<group>";
+		};
+		5A0768862064D8E400FB24D7 /* 自定义View */ = {
+			isa = PBXGroup;
+			children = (
+				5A0768872064D8FE00FB24D7 /* EOCLightGrayView.h */,
+				5A0768882064D8FE00FB24D7 /* EOCLightGrayView.m */,
+				5A07688A2064D90F00FB24D7 /* EOCBlueView.h */,
+				5A07688B2064D90F00FB24D7 /* EOCBlueView.m */,
+				5A07688D2064D91D00FB24D7 /* EOCRedView.h */,
+				5A07688E2064D91D00FB24D7 /* EOCRedView.m */,
+				5A0768902064D92A00FB24D7 /* EOCYellowView.h */,
+				5A0768912064D92A00FB24D7 /* EOCYellowView.m */,
+			);
+			path = "自定义View";
+			sourceTree = "<group>";
+		};
+		5A0768942064FEA300FB24D7 /* 运用 */ = {
+			isa = PBXGroup;
+			children = (
+				5A0768952064FEC400FB24D7 /* EOCCaseViewController.h */,
+				5A0768962064FEC400FB24D7 /* EOCCaseViewController.m */,
+				5A0768982064FF8400FB24D7 /* EOCCustomButton.h */,
+				5A0768992064FF8400FB24D7 /* EOCCustomButton.m */,
+			);
+			path = "运用";
+			sourceTree = "<group>";
+		};
+		5A07689B206510ED00FB24D7 /* 手势事件 */ = {
+			isa = PBXGroup;
+			children = (
+				5A07689C2065111100FB24D7 /* EOCGestureViewController.h */,
+				5A07689D2065111100FB24D7 /* EOCGestureViewController.m */,
+				5A07689F2065113D00FB24D7 /* 手势 */,
+			);
+			path = "手势事件";
+			sourceTree = "<group>";
+		};
+		5A07689F2065113D00FB24D7 /* 手势 */ = {
+			isa = PBXGroup;
+			children = (
+				5A0768A02065116900FB24D7 /* EOCCustomGesture.h */,
+				5A0768A12065116900FB24D7 /* EOCCustomGesture.m */,
+			);
+			path = "手势";
+			sourceTree = "<group>";
+		};
+		5A0768A32065153500FB24D7 /* Button事件 */ = {
+			isa = PBXGroup;
+			children = (
+				5A0768A42065155900FB24D7 /* EOCButtonEventViewController.h */,
+				5A0768A52065155900FB24D7 /* EOCButtonEventViewController.m */,
+			);
+			path = "Button事件";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A07685A2064D1B700FB24D7 /* 事件层次分析 VIP第三期 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A0768712064D1B700FB24D7 /* Build configuration list for PBXNativeTarget "事件层次分析 VIP第三期" */;
+			buildPhases = (
+				5A0768572064D1B700FB24D7 /* Sources */,
+				5A0768582064D1B700FB24D7 /* Frameworks */,
+				5A0768592064D1B700FB24D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "事件层次分析 VIP第三期";
+			productName = "事件层次分析 VIP第三期";
+			productReference = 5A07685B2064D1B700FB24D7 /* 事件层次分析 VIP第三期.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A0768532064D1B700FB24D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "八点钟学院";
+				TargetAttributes = {
+					5A07685A2064D1B700FB24D7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5A0768562064D1B700FB24D7 /* Build configuration list for PBXProject "事件层次分析 VIP第三期" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A0768522064D1B700FB24D7;
+			productRefGroup = 5A07685C2064D1B700FB24D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A07685A2064D1B700FB24D7 /* 事件层次分析 VIP第三期 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A0768592064D1B700FB24D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A07686B2064D1B700FB24D7 /* LaunchScreen.storyboard in Resources */,
+				5A0768682064D1B700FB24D7 /* Assets.xcassets in Resources */,
+				5A0768662064D1B700FB24D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A0768572064D1B700FB24D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A07689E2065111100FB24D7 /* EOCGestureViewController.m in Sources */,
+				5A07689A2064FF8400FB24D7 /* EOCCustomButton.m in Sources */,
+				5A0768922064D92A00FB24D7 /* EOCYellowView.m in Sources */,
+				5A0768802064D5C100FB24D7 /* UIView+EOCFrame.m in Sources */,
+				5A0768812064D5C100FB24D7 /* UIView+hitTest.m in Sources */,
+				5A0768852064D82E00FB24D7 /* EOCFindingViewController.m in Sources */,
+				5A0768632064D1B700FB24D7 /* ViewController.m in Sources */,
+				5A0768A62065155900FB24D7 /* EOCButtonEventViewController.m in Sources */,
+				5A07688C2064D90F00FB24D7 /* EOCBlueView.m in Sources */,
+				5A07688F2064D91D00FB24D7 /* EOCRedView.m in Sources */,
+				5A0768892064D8FE00FB24D7 /* EOCLightGrayView.m in Sources */,
+				5A07686E2064D1B700FB24D7 /* main.m in Sources */,
+				5A0768762064D2A900FB24D7 /* EOCDataObject.m in Sources */,
+				5A07687F2064D5C100FB24D7 /* UIView+Color.m in Sources */,
+				5A0768602064D1B700FB24D7 /* AppDelegate.m in Sources */,
+				5A0768972064FEC400FB24D7 /* EOCCaseViewController.m in Sources */,
+				5A0768A22065116900FB24D7 /* EOCCustomGesture.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5A0768642064D1B700FB24D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A0768652064D1B700FB24D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A0768692064D1B700FB24D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A07686A2064D1B700FB24D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A07686F2064D1B700FB24D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5A0768702064D1B700FB24D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A0768722064D1B700FB24D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V272W7YD5Y;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "事件层次分析 VIP第三期/EOCEvent.pch";
+				INFOPLIST_FILE = "事件层次分析 VIP第三期/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.study.-------VIP---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A0768732064D1B700FB24D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V272W7YD5Y;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "事件层次分析 VIP第三期/EOCEvent.pch";
+				INFOPLIST_FILE = "事件层次分析 VIP第三期/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.study.-------VIP---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A0768562064D1B700FB24D7 /* Build configuration list for PBXProject "事件层次分析 VIP第三期" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A07686F2064D1B700FB24D7 /* Debug */,
+				5A0768702064D1B700FB24D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A0768712064D1B700FB24D7 /* Build configuration list for PBXNativeTarget "事件层次分析 VIP第三期" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A0768722064D1B700FB24D7 /* Debug */,
+				5A0768732064D1B700FB24D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A0768532064D1B700FB24D7 /* Project object */;
+}
